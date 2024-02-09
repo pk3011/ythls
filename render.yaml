@@ -11,7 +11,7 @@ commands:
 
 # Specify the directory to deploy
 deploy:
-  dir: public
+  dir: main
 
 # Specify the build settings
 build_settings:
