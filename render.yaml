@@ -1,0 +1,22 @@
+version: 1
+
+commands:
+  # Install dependencies
+  pre_build:
+    - npm install
+
+  # Build command
+  build:
+    - npm run build
+
+# Specify the directory to deploy
+deploy:
+  dir: public
+
+# Specify the build settings
+build_settings:
+  # Node.js version
+  node_version: 14
+
+# Specify the type of project
+project_type: node_js
