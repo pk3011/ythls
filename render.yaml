@@ -1,6 +1,5 @@
 version: 1
 
-  # Install dependencies
   pre_build:
     - npm install
 
