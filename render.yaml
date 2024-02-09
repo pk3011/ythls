@@ -1,6 +1,5 @@
 version: 1
 
-commands:
   # Install dependencies
   pre_build:
     - npm install
@@ -10,11 +9,8 @@ commands:
     - npm run build
 
 # Specify the directory to deploy
-deploy:
   dir: main
 
-# Specify the build settings
-build_settings:
   # Node.js version
   node_version: 14
 
